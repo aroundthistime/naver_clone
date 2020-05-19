@@ -1,0 +1,116 @@
+.main__recommended .section-description{
+    font-size : 12px;
+    opacity : 0.7;
+}
+
+.main__recommended .recommended__info-area{
+    font-size : 12px;
+}
+.main__recommended .recommended__info-area div{
+    display : inline-block;
+}
+
+
+.recommended__info-area .recommended__count {
+    font-weight : 600;
+}
+
+.recommended__info-area i{
+    opacity : 0.65;
+}
+
+.main__recommended .recommended__categories{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom : 24px;
+}
+
+.recommended__categories li{
+    cursor: pointer;
+    width : 100%;
+    border :1px solid rgb(227, 229, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 18px 0px;
+    font-size : 13px;
+    font-weight: 600;
+    opacity : 0.93;
+}
+
+.recommended__categories .recommended__category--on{
+    background-color: #486B95;
+    color : #E1E7EE;
+}
+.recommended__categories .recommended__category--off:hover{
+    color : #19CE60;
+}
+
+.recommended__articles{
+    display : flex;
+    border-bottom : 1px solid  rgb(227, 229, 231);
+}
+
+.recommended__articles__column .article__theme{
+    color : #486B95;
+    font-weight: 600;
+    font-size : 12px;
+}
+
+.recommended__articles__column .article__title{
+    font-weight : 600;
+    font-size : 13.5px;
+}
+
+.recommended__articles__column .article__source,
+.recommended__articles__column .article__description{
+    font-size : 13px;
+}
+
+.recommended__articles .article__theme{
+    padding-bottom : 8px;
+}
+
+.recommended__articles .article__title{
+    padding-bottom : 8px;
+    line-height: 1.5;
+}
+
+
+.recommended__article--main{
+    display : flex;
+    flex-direction : column;
+    padding-right : 21px;
+    cursor: pointer;
+}
+
+.recommended__article--main img{
+    display : flex;
+    flex-direction : column;
+    width : 365px;
+    height : 177px;
+    padding-bottom : 18px;
+}
+
+.recommended__article--main .article__description{
+    line-height : 1.5;
+    padding-bottom : 7px;
+}
+
+.recommended__articles__column:nth-child(2){
+    display : flex;
+    flex-direction : column;
+}
+
+.recommended__article--side img{
+    width : 100px;
+    height : 100px;
+    margin-right : 20px;
+}
+
+.recommended__article--side{
+    display : flex;
+    padding-bottom : 21px;
+    cursor: pointer;
+}

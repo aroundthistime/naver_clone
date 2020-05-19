@@ -1,0 +1,15 @@
+main{
+    display : flex;
+    padding : 4px 194px;
+    padding-bottom : 85px;
+}
+
+main .main--lg{
+    width : 750px;
+}
+
+main .main--small{
+    width : 350px;
+    margin-left : 31px;
+    padding-top : 15px;
+}

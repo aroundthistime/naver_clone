@@ -1,0 +1,15 @@
+.section-header{
+    display : flex;
+    justify-content: space-between;
+    font-size : 15px;
+    padding : 18px 0px;
+    cursor: pointer;
+}
+
+.section-header .section-title{
+    font-weight : 600;
+}
+
+.section-header .section-header__column:nth-child(2) span{
+    cursor: pointer;
+}

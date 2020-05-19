@@ -1,0 +1,123 @@
+.main__user{
+    background-color: #F7F9FA;
+    border :1px solid rgb(227, 229, 231);
+    width : 100%;
+}
+
+.main__user .user__info{
+    padding : 19px 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info__column:nth-child(1){
+    display : flex;
+    align-items: center;
+}
+
+.main__user .user__profile{
+    width : 55px;
+    height : 55px;
+    border-radius : 50%;
+    margin-right : 16px;
+    cursor: pointer;
+}
+
+
+.main__user .user__content{
+    font-size : 12px;
+    cursor: pointer;
+}
+
+
+.user__name{
+    font-size : 13px;
+    font-weight : 700;
+}
+
+.user__title span:nth-child(2),
+.user__title span:nth-child(3){
+    opacity : 0.6;
+}
+
+.user__content .user__mail-address{
+    opacity : 0.6;
+    padding : 6px 0px;
+}
+
+.user__content .user__mailbox{
+    display : flex;
+}
+
+.user__mailbox .letter-count{
+    color : #19CE60;
+    font-weight : 600;
+    display: inline;
+}
+
+.user__mailbox .user__mail{
+    padding-right : 10px;
+}
+
+.info__column:nth-child(2) .logout-btn{
+    width : 66px;
+    height : 30px;
+    font-size : 11px;
+    background-color: #CED2D7;
+    color : #F7F9FA;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border-radius : 20px;
+    cursor: pointer;
+}
+
+.info__column:nth-child(2) .logout-btn:hover{
+    background-color: #b4b9bf;
+}
+
+.main__user .user__categories{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size : 13px;
+    font-weight : 600;
+    
+
+}
+
+.user__categories .user__category{
+    width : 100%;
+    height : 40px;
+    border-top : 1px solid rgb(227, 229, 231);
+    border-right :  1px solid rgb(227, 229, 231);
+    padding-top : 13px;
+    padding-bottom : 11px;
+    text-align: center;
+    position : relative;
+    cursor: pointer;
+}
+
+.user__category .user__notice-count{
+    width : 35px;
+    height : 18px;
+    background-color:#19CE60;
+    color : white;
+    font-size : 10px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    position : absolute;
+    top : -10px;
+    left : 17px;  
+}
+
+.user__notice-count.count--two-digit{
+    width : 24px;
+    left : 21.5px;
+
+}

@@ -1,0 +1,117 @@
+.main__shopping{
+    padding-top : 24px;
+
+}
+
+.shopping__tab{
+    display : flex;
+    font-size : 13px;
+}
+
+.shopping__tab li{
+    margin-left : 15px;
+    font-weight : 600;
+    opacity : 0.8;
+    cursor: pointer;
+}
+
+.shopping__tab li.tab--ad{
+    color : #19CE60;
+    opacity : 1;
+    border-bottom : 2px solid  #19CE60;
+}
+
+.main__shopping .shopping__malls{
+    background-color:  #F7F9FA;
+    display : flex;
+    flex-direction: column;
+    font-size : 12px;
+    width : 100%;
+    height : 70px;
+    justify-content: center;
+    padding : 5px 17px;
+    border :1px solid rgb(227, 229, 231);
+}
+
+.shopping__malls .mall__list{
+    display : flex;
+    justify-content: space-between;
+    padding : 5px;
+}
+
+.mall__list span:nth-of-type(odd){
+    cursor: pointer;
+}
+
+.mall__list span:nth-of-type(even){
+    opacity : 0.7;
+}
+
+.mall__list .strong-mall{
+    font-weight : 600;
+}
+
+.shopping__ads .shopping__ads-tab{
+    display : flex;
+    justify-content: flex-end;
+    height : 45px;
+    align-items : center;
+    font-size : 12px;
+    opacity : 0.7;
+}
+
+.shopping__ads-tab .shopping--current{
+    font-weight: 700;
+    margin-right : 5px;
+}
+
+.shopping__ads .remote-btn--small{
+    margin-left : 11px;
+}
+
+.shopping__ads .shopping__ads__row{
+    width : 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom : 10px;
+}
+
+.shopping__ads__row .shopping__ads__item{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping__ads__item img{
+    width : 106px;
+    height : 146px;
+    cursor: pointer;
+}
+
+.shopping__ads__item .item__description{
+    font-size : 12px;
+    padding : 8px 0px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.shopping__ads__more-btn{
+    background-color: #F7F9FA;
+    border :1px solid rgb(227, 229, 231);
+    width : 133px;
+    height : 25px;
+    margin : 0 auto;
+    padding : 10px;
+    font-size : 12px;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shopping__ads__more-btn i{
+    color : #FF1694;
+}
+.shopping__ads__more-btn .shopping--current{
+    font-weight: 600;
+}

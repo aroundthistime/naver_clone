@@ -1,0 +1,76 @@
+.main__news-stand .news__stand-title{
+    position : relative;
+    color : #557BD9;
+}
+
+.main__news-stand .news__badge{
+    background-color: #557BD9;
+    color : white;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position : absolute;
+    font-size : 8px;
+    font-weight : 600;
+    height : 16px;
+    width : 16px;
+    bottom : 8px;
+    left : 5px;
+
+}
+
+.main__news-stand .btn-on{
+    font-weight : 600;
+    cursor: pointer;
+}
+
+.main__news-stand .btn-off{
+    opacity : 0.65;
+    cursor: pointer;
+}
+
+.main__news-stand .section-title~i{
+    font-weight : 600;
+}
+
+.main__news-stand .section-title{
+    padding-left : 5px;
+}
+
+.news-stand__table{
+    display : flex;
+    flex-direction : column;
+    position : relative;
+    padding-bottom : 15px;
+}
+
+.news-stand__table .news-stand__table__row{
+    display : flex;
+    position : relative;
+}
+
+.news-stand__table__row .news-stand__thumbnail{
+    width : 126px;
+    height : 68px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border :1px solid rgb(227, 229, 231);
+    cursor: pointer;
+    text-align: center;
+}
+
+.news-stand__table__row .news-stand__thumbnail img{
+    width : 70px;
+    height : 25px;
+}
+
+.main__news-stand .news__stand__btn-off{
+    opacity : 0.65;
+}
+
+.main__news-stand .news__stand__btn-on{
+    color : #557BD9;
+    padding : 0px 5px;
+}
